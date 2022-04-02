@@ -1,6 +1,7 @@
 # Proyecto01
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+Ademas tiene por objetivo crear el primer proyecto para el desarrollo de aplicaciones usando angular
 
 ## Development server
 
