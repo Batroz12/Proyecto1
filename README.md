@@ -6,6 +6,7 @@ Ademas tiene por objetivo crear el primer proyecto para el desarrollo de aplicac
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Ademas podemos hacer uso de soporte para [Bootstrap](https://getbootstrap.com/)
 
 ## Code scaffolding
 
