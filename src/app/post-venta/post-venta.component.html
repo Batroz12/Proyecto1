@@ -52,7 +52,17 @@
         <option>Piura</option>
         </select>
       </div>
-      <button class="btn btn-dark" (click)="EnviarDatos()">Enviar</button>
+      <div class="mb-3">
+        <label for="Consesionaria-Servicio" class="form-label">Servicio</label>
+        <select id="Consesionaria-Servicio" class="form-select" [(ngModel)]="concesionario.Servicio">
+        <option></option>
+        <option>Restaurar</option>
+        <option>Mejorar</option>
+        <option>Cuidado</option>
+        <option>Repuestos</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-dark" (click)="EnviarDatos()">Enviar</button>
     </div>
   </div>
 </div>

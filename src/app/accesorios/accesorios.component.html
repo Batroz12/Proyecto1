@@ -1,0 +1,81 @@
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+        <img src="https://www.chevrolet.com.pe/content/dam/chevrolet/south-america/peru/espanol/index/pickups-and-trucks/2022-colorado-z71/mov/mh/mh-all-new-colorado-z71.jpg?imwidth=1200" class="d-block w-100" alt="...">
+      </div>
+      
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://www.chevrolet.com.pe/content/dam/chevrolet/south-america/peru/espanol/index/index-subcontent/2022/01-images/01-mh/marzo/masthead-colorado.jpg?imwidth=1200" class="d-block w-100" alt="...">
+      </div>
+      
+      
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="https://www.chevrolet.com.pe/content/dam/chevrolet/south-america/peru/espanol/index/index-subcontent/2021/03-images/mh-tracker-mujeres.jpg?imwidth=1200" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="w-50 mx-auto text-center pt-5" id="intro" style="margin-top: -30px;">
+    <h1 class="p-3 fs-2 border-top border-3 ">
+        <span class="text-primary" style="font-family: 'Courier New', Courier, monospace;">
+          <b>Nuestros Accesorios</b>
+        </span>
+    </h1>
+    <h1 class="p-3 fs-2 border-top border-3" style="margin: -8px;">
+  </h1> 
+</section>
+
+<div class="container2">
+  <!-- ...... ACCESORIO_01 ...... -->
+      <div class="card">
+         <h4>Nombre: {{Accesorio01.nombre}}</h4> 
+         <p><img src="{{Accesorio01.imagen}}" alt="Ya fue P"></p>
+         <p>Precio: {{Accesorio01.precio}}</p>
+      </div>
+  <!-- ...... ACCESORIO_02 ...... -->
+      <div class="card">
+         <h4>Nombre: {{Accesorio02.nombre}}</h4> 
+         <p><img src="{{Accesorio02.imagen}}" alt="Ya fue P"></p>
+         <p>Precio: {{Accesorio02.precio}}</p>
+      </div>
+  <!-- ...... ACCESORIO_03 ...... -->
+      <div class="card">
+        <h4>Nombre: {{Accesorio03.nombre}}</h4> 
+        <p><img src="{{Accesorio03.imagen}}" alt="Ya fue P"></p>
+        <p>Precio: {{Accesorio03.precio}}</p>
+      </div>
+      
+      <!-- ...... ACCESORIO_04 ...... -->
+          <div class="card">
+             <h4>Nombre: {{Accesorio04.nombre}}</h4> 
+             <p><img src="{{Accesorio04.imagen}}" alt="Ya fue P"></p>
+             <p>Precio: {{Accesorio04.precio}}</p>
+          </div>
+      <!-- ...... ACCESORIO_05 ...... -->
+          <div class="card">
+             <h4>Nombre: {{Accesorio05.nombre}}</h4> 
+             <p><img src="{{Accesorio05.imagen}}" alt="Ya fue P"></p>
+             <p>Precio: {{Accesorio05.precio}}</p>
+          </div>
+      <!-- ...... ACCESORIO_06 ...... -->
+          <div class="card">
+            <h4>Nombre: {{Accesorio06.nombre}}</h4> 
+            <p><img src="{{Accesorio06.imagen}}" alt="Ya fue P"></p>
+            <p>Precio: {{Accesorio06.precio}}</p>
+          </div>
+      </div>
+  
+    <div class="Botton"> 
+  
+    <button [disabled]="estadoBoton" (click)="onDatos()">Datos ACCESORIOS CONSOLA</button>
+  
+    </div>

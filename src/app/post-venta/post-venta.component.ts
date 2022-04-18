@@ -25,6 +25,7 @@ export class PostVentaComponent {
   }
   public concesionario: Concesionario = {
     Sede: "",
+    Servicio: "",
   }
   EnviarDatos(): void {
     this.ListaCliente.push(this.clienteAntiguo)

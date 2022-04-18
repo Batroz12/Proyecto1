@@ -8,6 +8,9 @@ import { LoginComponent } from './login/login.component';
 import { CotizacionComponent } from './cotizacion/cotizacion.component';
 import { ModelosComponent } from './modelos/modelos.component';
 import { PostVentaComponent } from './post-venta/post-venta.component';
+import { MenuComponent } from './menu/menu.component';
+import { AccesoriosComponent } from './accesorios/accesorios.component';
+import { RepuestosComponent } from './repuestos/repuestos.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +19,9 @@ import { PostVentaComponent } from './post-venta/post-venta.component';
     CotizacionComponent,
     ModelosComponent,
     PostVentaComponent,
+    MenuComponent,
+    AccesoriosComponent,
+    RepuestosComponent,
   ],
   imports: [
     BrowserModule,
