@@ -7,6 +7,7 @@ import { PostVentaComponent } from './post-venta/post-venta.component';
 import { MenuComponent } from './menu/menu.component';
 import { AccesoriosComponent } from './accesorios/accesorios.component';
 import { RepuestosComponent } from './repuestos/repuestos.component';
+import { LoginAdminComponent } from './login-admin/login-admin.component';
 
 const routes: Routes =[
   {path:'', component: MenuComponent},
@@ -17,6 +18,7 @@ const routes: Routes =[
   {path:'accesorios', component: AccesoriosComponent},
   {path:'repuestos', component: RepuestosComponent},
   {path:'postventa', component: PostVentaComponent},
+  {path:'login-admin', component: LoginAdminComponent},
 ]
 
 @NgModule({

@@ -12,6 +12,7 @@ import { MenuComponent } from './menu/menu.component';
 import { AccesoriosComponent } from './accesorios/accesorios.component';
 import { RepuestosComponent } from './repuestos/repuestos.component';
 import { Servicio01Service } from './Servicios/servicio01.service';
+import { LoginAdminComponent } from './login-admin/login-admin.component';
 // import { ProductosComponent } from './productos/productos.component';
 
 @NgModule({
@@ -24,6 +25,7 @@ import { Servicio01Service } from './Servicios/servicio01.service';
     MenuComponent,
     AccesoriosComponent,
     RepuestosComponent,
+    LoginAdminComponent,
     // ProductosComponent,
   ],
   imports: [
